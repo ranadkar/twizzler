@@ -3004,6 +3004,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "gtn"
+version = "0.1.0"
+dependencies = [
+ "embedded-io",
+ "noline",
+ "rand 0.8.5",
+]
+
+[[package]]
 name = "guess_host_triple"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"

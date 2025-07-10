@@ -52,7 +52,7 @@ members = [
     #"src/bin/ls",
     #"src/lib/devmgr",
     #"src/bin/serialecho", "tools/serialtest",
-    "src/bin/ptest",
+    "src/bin/ptest", "src/bin/gtn",
 ]
 
 exclude = ["toolchain/src/rust"]
@@ -75,6 +75,7 @@ initrd = [
 
     "crate:sec-test",
     "crate:ptest",
+    "crate:gtn",
 
     #"third-party:hello-world-rs"
     #"crate:test-tiny-http",
