@@ -68,7 +68,6 @@ fn main() {
             }
         };
 
-        // Check for quit commands
         if guess_str == "quit" || guess_str == "q" {
             let answer = rand::thread_rng().gen_range(lower..=upper);
             println!("Game over! The number was {answer}");
