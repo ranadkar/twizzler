@@ -32,8 +32,8 @@ jobs:
     uses: ./.github/workflows/build-and-test.yml
     secrets: inherit
 
-  docs:
-    if: github.event_name == 'push'
-    needs: build-and-test-main
-    uses: ./.github/workflows/docs.yml
-    secrets: inherit
+  # docs:
+  #   if: github.event_name == 'push'
+  #   needs: build-and-test-main
+  #   uses: ./.github/workflows/docs.yml
+  #   secrets: inherit
